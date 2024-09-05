@@ -1,0 +1,46 @@
+
+.appcontainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+
+
+}
+button{
+  transition: backgroundcolor 0.3s;
+  cursor: pointer;
+}
+.generatebtn{
+background-color: blue;
+color: white;
+padding: 10px;
+
+}
+.generatebtn:disabled{
+  background-color: grey;
+  cursor: not-allowed;
+}
+.downloadbtn{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+input{
+
+  width: 30%;
+  height: 30px;
+}
+.generatebtn:hover{
+  background-color: darkblue;
+}
+.downloadbtn:hover{
+  background-color: darkgreen;
+}
+
